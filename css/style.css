@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(97,77,76);
+    font-family: Arial;
+    overflow:scroll;
+}
+
+/* En-tête */
+
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 6px solid rgb(255, 255, 255);
+    background: rgb(71,57,56);
+    z-index: 2;
+}
+
+
+/* Logo de l'en-tête */
+
+.navbar img {
+    max-height: 100px;
+    max-width: 196px;
+}
+
+/* Onglets de l'en-tête */
+
+a { 
+   text-decoration: none;
+   font-size: x-large;
+   color: white;
+}
+
+a:hover {
+    color:rgb(143, 96, 96);
+}
+
+li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Logo de l'en-tête */
+
+.element {
+    display: inline-block;
+    font-family: Arial;
+}
+
+
+/* Image de fond  */
+
+#background {
+    filter: brightness(70%)
+}
+
+.textback {
+    color: white;
+    position: absolute;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    top: 31%;
+    left: 26%;
+    font-size: 52px;
+    z-index: 1;
+}
+
+.textback p {
+    color: white;
+    width: 201%;
+    position: absolute;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    top: 46%;
+    left: 8%;
+    font-size: 52px;
+}
+
+
+/* En savoir plus - Boutton  */
+
+#typebutton {
+    position: absolute;
+    margin-left: 61%;
+    font-size: x-large;
+    border: none;
+    margin-top: 523px;
+    color: rgb(185, 122, 87);
+    font-style: italic;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 5px white;
+    Z-index: 1;
+}
+
+/* Scroll down  */
+#down {
+    margin-top: 7%;
+    padding-bottom: 25%;
+} 
+
+
+/* Image down */
+
+.presentbox {
+    display: flex;
+    zoom: 20%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxleft {
+    display: flex;
+    font-size: 134px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxmid {
+    display: flex;
+    font-size: 134px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxright {
+    display: flex;
+    font-size: 134px;
+    flex-direction: column;
+    align-items: center;
+}

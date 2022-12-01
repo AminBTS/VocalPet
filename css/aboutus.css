@@ -1,0 +1,41 @@
+
+        h1{
+            text-align: center;
+        }
+
+        .presentation{
+            column-count: 3;
+            column-rule: solid 1px;
+            text-align: center;
+            
+        }
+
+        .vocal{
+            padding-top: 0px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        
+        .affaire{
+            padding-top: 10px;
+        }
+
+        .vocal, .sept, .affaire{
+           font-family: Arial;
+           font-weight: bold; 
+        }
+
+        .image_boutique{
+            background-color: blue;
+            text-align: center;
+            padding: 100px;
+            color: white;
+        }
+
+        .personnes{
+            column-count: 5;
+        }
+
+        .photo1{
+            margin-top: -1px;
+        }
