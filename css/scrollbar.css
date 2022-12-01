@@ -14,3 +14,28 @@
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(39, 21, 21);
 }
+
+.headerbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    margin-top: 106px;
+    
+  }
+  
+  .progress-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 5px;
+    width: 100%;
+  }
+  
+  .progress-bar {
+    background-color: #291e1e;
+    height: 5px;
+    width: 0%;
+  }
+  
+  .content {
+    padding: 2em;
+  }
